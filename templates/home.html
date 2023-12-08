@@ -18,7 +18,7 @@
   <body>
     <div class= "container">
       <h1 class="text-center mt-2 mb-4">
-        Tolly Careers.
+        {{company_name}} Careers.
       </h1>
       <img class="img fluid" id="banner" src="https://tolly-careers-website.johnsonkamau542.repl.co/static/banner.jpeg" >
     <h2>
@@ -26,13 +26,20 @@
     </h2>
     <p class="lead mt-2 mb-4">
       The Tolly careers website serves as a valuable platform for job seekers and employers. It provides a professional space to showcase job opportunities, company profiles, and applicant qualifications. With user-friendly navigation, search filters, and personalized features, users can efficiently connect and explore career options. Stay updated with industry trends, enhance your professional network, and find your dream job through a careers website.
-   <p><
+   <p>
         <h3 class="text-center mt-2 mb-4">
           Open Positions
         </h3>
-     <p>TODO -Show the jobs here<p>
+     <div>
+       {% for job in jobs %}
+       {% include 'jobitem.html' %}
+
+       {% endfor %}
+     </div>
        <div class="text-center" 
-     <button class="class="btn btn-primary btn-lg" Contact Us</button>
+     <button class="class="btn btn-primary btn-lg" 
+       "Contact Us"
+     </button>
        
          <p class="mt-4">Copyright 2023 , Tolly</p>
        </div>
