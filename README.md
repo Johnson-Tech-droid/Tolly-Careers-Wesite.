@@ -1,6 +1,6 @@
 # Tolly-Careers-Website.
 
-About Tolly Careers Website
+About Tolly Careers Website - (HTML,CSS & PYTHON used.)
 Welcome to Tolly Careers—a dynamic platform designed to connect top-tier talent with forward-thinking employers. This website is built to streamline the hiring process, offering a seamless and user-friendly experience for both job seekers and recruiters.
 
 For Employers:
